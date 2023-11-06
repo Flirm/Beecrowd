@@ -5,7 +5,7 @@ int main()
     using namespace std;
     
     double num; cin >> num;
-    int select;
+    int select = 0;
     
     select += ((num <= 25) && (num >= 0)) ? 1 : 0;
     select += ((num <= 50) && (num > 25)) ? 2 : 0;
