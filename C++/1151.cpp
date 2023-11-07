@@ -28,7 +28,9 @@ int main()
         cout << next;
         if(i != num){
             cout << " ";
+            continue;
         }
+        cout << endl;
         
     }
  
